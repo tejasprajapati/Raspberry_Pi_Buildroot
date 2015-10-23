@@ -1,0 +1,4 @@
+# From ftp://sources.redhat.com/pub/lvm2/md5.sum
+md5 80af5af726949bbbb2aceb15b24b7d20  LVM2.2.02.132.tgz
+# Locally calculated
+sha256 413aa09cd5babb2e01b0209ed4be514645fa8b492664f57f384352a7f58f8829  LVM2.2.02.132.tgz
