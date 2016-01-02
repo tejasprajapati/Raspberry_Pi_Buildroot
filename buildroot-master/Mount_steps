@@ -1,0 +1,23 @@
+echo "Unmouting the mounted partition."
+umount /media/tejas/boot
+umount /media/tejas/fs
+
+echo "Mouting the partitions."
+sudo mount /dev/sdb1 /mnt/boot_partition/;
+sudo mount /dev/sdb2 /mnt/other_partition/;
+
+echo "Wait for 2 secs."
+sleep 2
+
+echo "Copying files."
+sudo cp output/images/rpi-firmware/* /mnt/boot_partition;
+sudo cp output/images/zImage /mnt/boot_partition;
+
+sync
+sync
+
+echo "Extracting filesystem."
+sudo tar xf output/images/rootfs.tar -C /mnt/other_partition;
+sync
+sync
+

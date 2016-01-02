@@ -1,0 +1,2 @@
+sudo umount /mnt/boot_partition/
+sudo umount /mnt/other_partition/
