@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2015.11-git-g0b450f6-dirty Configuration
+# Buildroot 2015.11-git-gdbb8b26 Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 
@@ -1168,7 +1168,7 @@ BR2_PACKAGE_MONO_ARCH_SUPPORTS=y
 # BR2_PACKAGE_LZO is not set
 # BR2_PACKAGE_SNAPPY is not set
 # BR2_PACKAGE_SZIP is not set
-# BR2_PACKAGE_ZLIB is not set
+BR2_PACKAGE_ZLIB=y
 
 #
 # Crypto
@@ -1586,7 +1586,7 @@ BR2_PACKAGE_CANFESTIVAL_ARCH_SUPPORTS=y
 # BR2_PACKAGE_LIBOAUTH is not set
 # BR2_PACKAGE_LIBOPING is not set
 # BR2_PACKAGE_LIBOSIP2 is not set
-# BR2_PACKAGE_LIBPCAP is not set
+BR2_PACKAGE_LIBPCAP=y
 # BR2_PACKAGE_LIBRSYNC is not set
 # BR2_PACKAGE_LIBSHAIRPLAY is not set
 # BR2_PACKAGE_LIBSHOUT is not set
@@ -1795,7 +1795,11 @@ BR2_PACKAGE_LIBNSPR_ARCH_SUPPORT=y
 # libunistring needs a toolchain w/ wchar
 #
 # BR2_PACKAGE_LINENOISE is not set
-# BR2_PACKAGE_NCURSES is not set
+BR2_PACKAGE_NCURSES=y
+# BR2_PACKAGE_NCURSES_TARGET_PANEL is not set
+# BR2_PACKAGE_NCURSES_TARGET_FORM is not set
+# BR2_PACKAGE_NCURSES_TARGET_MENU is not set
+# BR2_PACKAGE_NCURSES_TARGET_PROGS is not set
 
 #
 # newt needs a toolchain w/ wchar, dynamic library
@@ -1923,7 +1927,7 @@ BR2_PACKAGE_DROPBEAR_SMALL=y
 # BR2_PACKAGE_IBRDTN_TOOLS is not set
 # BR2_PACKAGE_IBRDTND is not set
 # BR2_PACKAGE_IFPLUGD is not set
-# BR2_PACKAGE_IFTOP is not set
+BR2_PACKAGE_IFTOP=y
 
 #
 # ifupdown needs an (e)glibc or musl toolchain w/ headers >= 3.0
