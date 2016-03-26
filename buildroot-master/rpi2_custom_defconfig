@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2015.11-git-g357b402-dirty Configuration
+# Buildroot 2015.11-git-g0d3863e-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 
@@ -535,16 +535,16 @@ BR2_PACKAGE_CMAKE_ARCH_SUPPORTS=y
 # BR2_PACKAGE_GETTEXT is not set
 # BR2_PACKAGE_GIT is not set
 # BR2_PACKAGE_GPERF is not set
-# BR2_PACKAGE_GREP is not set
+BR2_PACKAGE_GREP=y
 # BR2_PACKAGE_JQ is not set
 # BR2_PACKAGE_LIBTOOL is not set
-# BR2_PACKAGE_MAKE is not set
+BR2_PACKAGE_MAKE=y
 # BR2_PACKAGE_PATCH is not set
 # BR2_PACKAGE_PKGCONF is not set
-# BR2_PACKAGE_SED is not set
+BR2_PACKAGE_SED=y
 # BR2_PACKAGE_SSTRIP is not set
 # BR2_PACKAGE_SUBVERSION is not set
-# BR2_PACKAGE_TREE is not set
+BR2_PACKAGE_TREE=y
 
 #
 # Filesystem and flash utilities
